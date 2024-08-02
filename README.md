@@ -2,7 +2,7 @@
 Welcome to the Calculator App! This project is a modern calculator built using React and styled-components. It features a clean and responsive design with a toggle for light and dark themes. The app includes basic arithmetic operations and an animated gradient orb background for a unique touch.
 
 ## Live Demo
-You can view the live demo of the Calculator App here: calculator-aamirindi.vercel.app
+You can view the live demo of the Calculator App here: [calculator-aamirindi.vercel.app](https://calculator-aamirindi.vercel.app)
 
 ## Features
 Light and Dark Mode: Easily switch between light and dark themes.
