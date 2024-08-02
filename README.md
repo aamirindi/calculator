@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+## Calculator App
+Welcome to the Calculator App! This project is a modern calculator built using React and styled-components. It features a clean and responsive design with a toggle for light and dark themes. The app includes basic arithmetic operations and an animated gradient orb background for a unique touch.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Demo
+You can view the live demo of the Calculator App here: calculator-aamirindi.vercel.app
 
-Currently, two official plugins are available:
+# Features
+Light and Dark Mode: Easily switch between light and dark themes.
+Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division.
+Responsive Design: Optimized for various screen sizes.
+Animated Background: Includes a dynamic gradient orb animation.
+Installation
+Clone the Repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+git clone https://github.com/your-username/calculator-app.git
+Navigate to the Project Directory:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+cd calculator-app
+Install Dependencies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+npm install
+Start the Development Server:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm start
+Usage
+Open your browser and navigate to http://localhost:5173 to start using the calculator.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Contributing
+Feel free to open issues or submit pull requests to contribute to the project.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
