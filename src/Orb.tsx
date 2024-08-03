@@ -21,6 +21,7 @@ const Orb: React.FC = () => {
     width: 70vh;
     height: 70vh;
     position: absolute;
+    z-index: 1;
     border-radius: 50%;
     margin-left: -37vh;
     margin-top: -37vh;

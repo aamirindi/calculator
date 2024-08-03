@@ -113,6 +113,7 @@ const CalculatorContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
+  z-index: 2;
   background-color: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.color};
   transition: background-color 0.3s, color 0.3s;
@@ -125,6 +126,7 @@ const Container = styled.div`
   max-width: 600px;
   height: 100%;
   max-height: 600px; 
+  z-index: 3;
 
   @media (max-width: 600px) {
     width: 100vw;
