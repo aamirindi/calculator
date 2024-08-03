@@ -26,7 +26,7 @@ const Orb: React.FC = () => {
     margin-left: -37vh;
     margin-top: -37vh;
     background: linear-gradient(180deg, #f56692 0%, #f2994a 100%);
-    filter: blur(1200px);
+    filter: blur(200px);
     animation: ${moveOrb} 60s alternate linear infinite;
     pointer-events: none;
     user-select: none;
